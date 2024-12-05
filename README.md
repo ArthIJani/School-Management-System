@@ -50,11 +50,7 @@ Install the required Python libraries:
 pip install -r requirements.txt
 ```
 
-### 4. Set Up the Database
-
-Ensure PostgreSQL (or your preferred database) is set up. Configure the DATABASES setting in school_management/settings.py as per your database setup.
-
-### 5. Apply Migrations
+### 4. Apply Migrations
 
 Run the database migrations to set up the required tables:
 
@@ -62,7 +58,7 @@ Run the database migrations to set up the required tables:
 python manage.py migrate
 ```
 
-### 6. Create a Superuser
+### 5. Create a Superuser
 
 Create a superuser to access the Django admin panel:
 
@@ -70,7 +66,7 @@ Create a superuser to access the Django admin panel:
 python manage.py createsuperuser
 ```
 
-### 7. Run the Development Server
+### 6. Run the Development Server
 
 Start the Django development server:
 
@@ -90,5 +86,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 - Django for the web framework.
-- PostgreSQL for the database backend.
+- SQLite for the database backend (default in this project).
 - Various open-source libraries used in this project.
