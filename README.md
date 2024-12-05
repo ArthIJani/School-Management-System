@@ -21,9 +21,9 @@ Follow the steps below to set up and run the project locally:
 
 ### Prerequisites
 
-- Python 3.x
-- Django 3.x or higher
-- PostgreSQL (or another database of your choice)
+- Python 3.10
+- Django 4.2.11
+- SQLite (Default database used in this project)
 
 ### 1. Clone the Repository
 
